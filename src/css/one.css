@@ -1,0 +1,14 @@
+body {
+  background-color: #fff;
+  margin: 10px 20px 10px 20px;
+  color : red;
+  z-index: 2;
+}
+
+.box {
+  display: flex;
+}
+
+.box-2 {
+  display:flex;
+}

@@ -1,0 +1,1 @@
+const isLogin=()=>{sessionStorage.getItem("active")||(location.href="/index.html")};sessionStorage.getItem("active")||(location.href="/index.html");

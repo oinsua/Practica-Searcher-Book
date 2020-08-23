@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="css/styles_i.css")
+    title Document
+  body
+    article.app
+      h1.title Authenticate
+      form.form1#form1 
+        div.form_login 
+          input.form_user(type="text", id="user", maxlength="30", placeholder="Enter user", requered="true")
+          p.not_user_warning User is Required
+          input.form_pass(type="password", id="password", maxlength="10", placeholder="Enter password", requered="true")
+          p.not_password_warning Password is Required
+          input.form_button(type="submit", name="button" value="Login")
+    script(src="js/index.js")

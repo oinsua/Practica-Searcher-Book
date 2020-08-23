@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Search Book
+        link(rel="stylesheet", href="./css/style_s.css")
+        script(src="js/redirect_toindex.js")
+    body   
+        article.html_article 
+            h1.title Search Book
+            form.form1#form1
+                div.form_search
+                    input.form_title(type="text", id="title", placeholder="Enter a Title", requered="true")
+                    p.not_title_warning
+                    input.form_button(type="submit", name="button", value="Search")
+        div.html_container 
+        script(src="js/search.js")
