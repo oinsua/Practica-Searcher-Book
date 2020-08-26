@@ -4,12 +4,15 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Search Book</title>
-    <link rel="stylesheet" href="./css/style_s.css?t=1598064630569"/>
-    <script src="js/redirect_toindex.js?t=1598064630569"></script>
+    <link rel="stylesheet" href="./css/style_s.css?t=1598408619013"/>
+    <link rel="stylesheet" href="./css/modal.css?t=1598408619013"/>
+    <script src="js/redirect_toindex.js?t=1598408619013"></script>
   </head>
   <body>  
     <article class="html_article"> 
-      <h1 class="title">Search Book</h1>
+      <div class="container_head"><img class="img_start" src="./images/descarga.jfif"/>
+        <h1 class="title">Search Book</h1><img class="img_favorite" src="./images/descarga.png"/>
+      </div>
       <form class="form1" id="form1">
         <div class="form_search">
           <input class="form_title" type="text" id="title" placeholder="Enter a Title" requered="true"/>
@@ -18,7 +21,17 @@
         </div>
       </form>
     </article>
-    <div class="html_container"> </div>
-    <script src="js/search.js?t=1598064630569"></script>
+    <div class="html_container"></div>
+    <div class="modal" id="myModal">
+      <div class="modal-content"><span class="close">&times;</span>
+        <div class="info_container"></div>
+      </div>
+    </div>
+    <div class="modal" id="myModal_fav">
+      <div class="modal-content"> <span class="close_fav">&times;</span>
+        <div class="info_container_fav"></div>
+      </div>
+    </div>
+    <script src="js/search.js?t=1598408619013"></script>
   </body>
 </html>

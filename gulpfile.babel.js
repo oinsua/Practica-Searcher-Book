@@ -152,7 +152,8 @@ gulp.task('default', () => {
   // gulp.watch('./src/*.html', gulp.series('html-min')).on('change', reload)
   // gulp.watch('./src/css/*.css', gulp.series('styles'))
   gulp.watch('./src/views/**/*.pug', gulp.series('views')).on('change', reload);
-  gulp.watch('./src/scss/**/*.scss', gulp.series('sass')).on('change', reload);;
+  gulp.watch('./src/scss/**/*.scss', gulp.series('sass')).on('change', reload);
+  gulp.watch('./src/images/*', gulp.series('sass')).on('change', reload);
   gulp.watch('./src/js/*.js', gulp.series('babel')).on('change', reload);
   gulp.watch('./src/ts/*.ts', gulp.series('typescript')).on('change', reload);
 });

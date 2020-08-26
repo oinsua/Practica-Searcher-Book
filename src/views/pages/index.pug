@@ -11,8 +11,8 @@ html(lang="es")
       form.form1#form1 
         div.form_login 
           input.form_user(type="text", id="user", maxlength="30", placeholder="Enter user", requered="true")
-          p.not_user_warning User is Required
+          div.not_user_warning User is Required
           input.form_pass(type="password", id="password", maxlength="10", placeholder="Enter password", requered="true")
-          p.not_password_warning Password is Required
+          div.not_password_warning Password is Required
           input.form_button(type="submit", name="button" value="Login")
     script(src="js/index.js")

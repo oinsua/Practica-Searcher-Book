@@ -72,10 +72,15 @@ body{
   display: none;
   position: absolute;
   background-color: white;
+  border: 2px solid darkcyan;
+  right: -10px;
 }
 
 .not_password_warning{
   display: none;
   position: absolute;
   background-color: white;
+  border: 1px solid darkcyan;
+  top: 37px;
+  right: -10px;
 }
